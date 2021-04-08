@@ -55,19 +55,55 @@ h1 {
     padding-top: 1em;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
-
-
 }
 
-.underline {
+.tableContainer {
+    display: table;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.firstUnderline {
     
-    color: white;
+    /* make text invisible, but let the underline color to be white */
+    color: transparent;
+    text-decoration-color: white;
 
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    white-space: pre;
 
+    
+    /* white-space: pre; */
 }
+
+
+
+.minilogo {
+    background-color: transparent;
+    height: 60px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.secondUnderline {
+    display: inline;
+}
+
+
+.description {
+    color: white;
+    padding: 0 300px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+}
+
 
 
 
