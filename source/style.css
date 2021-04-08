@@ -1,4 +1,86 @@
-#header {
+header {
     background-image: url("../images/headerImage.jpg");
-    color: blue;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+    
+    padding: 100px 200px;
+    
 }
+
+
+.logo {
+    background-color: transparent;
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: auto;
+}
+
+
+.navigationTop {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    
+    margin-left: 1.5em;
+    padding: 0 20px;
+    color: orange;
+
+}
+
+li:nth-child(1){
+    list-style-type: none;
+}
+
+h1 {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+
+
+}
+
+.underline {
+    
+    color: white;
+
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    white-space: pre;
+
+}
+
+
+
+/*
+li::before {
+    content: "•"; 
+    color:orange;
+    display: inline;
+
+    margin: 0 1em;
+    
+    //width: 1em;
+    //margin-left: -1em;
+    
+}
+*/
