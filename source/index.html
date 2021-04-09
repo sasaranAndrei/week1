@@ -6,63 +6,160 @@
 
 <html>
 
-    <header>
-
-        <div class="bgImage"></div>
-      
-        <div class="topContainer">
-        
-            <!--LOGO-->
-            <div class="logoContainer">
-                <img src="../images/logo.png" class="logo"/>  
-                <span class="logoName">EUREKA<br/>CAFFE</span>
-            </div>
-
-            <!--Right top navigation bar-->
-            
-            <nav>
-                <ul class="navigationTop">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#service">SERVICE</a></li>
-                    <li><a href="#blog">BLOG</a></li>
-                    <li><a href="#contacts">CONTACTS</a></li>
-                </ul>    
-            </nav>
-
-       </div>
-
-        
-        <h1>Ordering food</h1>
-
-        <div class="flexContainer">
-
-            <div class="tableContainer">
-
-                <!-- 80 empty space for the left part-->
-                <span class="firstUnderline">..................................................................................</span>
-
-                <img src="../images/miniLogo.png" class="minilogo"/>
-
-                <!--60 empty space for the right part-->
-                <span class="firstUnderline">..................................................................................</span>
-
-            </div>
-            
-        </div>
-        
-
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea soluta pariatur voluptatum fugiat voluptatem officiis non! Exercitationem, explicabo error.</p>
     
-        
-    </header>
+        <header>
 
-    <main>
-        This is main.    
-    </main>
+            <div class="bgImage"></div>
 
-    <footer>
-        This is footer.    
-    </footer>
+            <div class="topContainer">
 
+                <!--LOGO-->
+                <div class="logoContainer">
+                    <img src="../images/logo.png" class="logo"/>  
+                    <span class="logoName">EUREKA<br/>CAFFE</span>
+                </div>
+
+                <!--Right top navigation bar-->
+                
+                <nav>
+                    <ul class="navigationTop">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#service">SERVICE</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#contacts">CONTACTS</a></li>
+                    </ul>    
+                </nav>
+
+            </div>
+
+
+            <h1>Ordering food</h1>
+
+            <div class="flexContainer">
+
+                <div class="tableContainer">
+
+                    <!-- 80 empty space for the left part-->
+                    <span class="firstUnderline">..................................................................................</span>
+
+                    <img src="../images/miniLogo.png" class="minilogo"/>
+
+                    <!--60 empty space for the right part-->
+                    <span class="firstUnderline">..................................................................................</span>
+
+                </div>
+                
+            </div>
+
+
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea soluta pariatur voluptatum fugiat voluptatem officiis non! Exercitationem, explicabo error.</p>
+
+
+        </header>
+
+        <main>
+
+            <div class="mainTop">
+            
+                <div class="dropdownContainer">
+
+                    <select id="selectCategory">
+                        <option value="category">CATEGORY</option>
+                        <option value="firstCategory">firstCategory</option>
+                    </select>
+
+
+                    <select id="selectSorting">
+                        <option value="sorting">SORTING</option>
+                        <option value="firstSorting">firstSorting</option>
+                    </select>
+
+                    <select id="selectVegetarian">
+                        <option value="vegetarian">VEGETARIAN</option>
+                        <option value="firstVegetarian">firstVegetarian</option>
+                    </select>
+                
+                </div>
+                    
+                <div class="sliderContainer">
+                    
+                    <div class="field">
+                        <span class="price">PRICE</span>
+                        <span class="leftValue">$0</span>
+                        <input class="slider" type="range" min="0" max="135" value="100" steps="1">
+                        <span class="rightValue">$135</span>
+
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="mainFood">
+                
+                <div class="foodContainer">
+                
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/carbonara.jpeg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/chickenSoup.jpg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/vitaminSalad.jpg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/pastaWalnut.jpg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/item4.jpg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/item5.jpg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/item6.jpg">
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="imgBox">
+                            <img class="foodImg"src="../images/item7.jpg">
+                        </div>
+                    </div>
+
+                
+                </div>
+            
+                
+            </div>
+
+        </main>
+
+        <footer>
+            This is footer.    
+        </footer>
+
+
+
+    
 </html>
